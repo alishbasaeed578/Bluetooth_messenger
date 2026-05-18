@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Bluetooth Chat</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="app">
+
+    <div class="topbar">
+
+        Bluetooth Messenger
+
+    </div>
+
+    <div class="devices">
+
+        <button id="scanBtn">
+
+            Scan Bluetooth Devices
+
+        </button>
+
+        <div id="deviceList"></div>
+
+    </div>
+
+    <div class="chat-container">
+
+        <div id="messages"></div>
+
+        <div class="input-area">
+
+            <input
+                type="text"
+                id="messageInput"
+                placeholder="Type a message"
+            >
+
+            <input type="file" id="fileInput">
+
+            <button id="sendBtn">
+
+                Send
+
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="/socket.io/socket.io.js"></script>
+
+<script src="app.js"></script>
+
+</body>
+
+</html>
