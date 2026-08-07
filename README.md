@@ -34,6 +34,7 @@ Find the local network IP address of your host machine (Device A).
 
 ### 2. Start the Receiver (Device A)
 Launch the application in listener/receiver mode first:
+
 ```bash
 python app.py --mode server
 
