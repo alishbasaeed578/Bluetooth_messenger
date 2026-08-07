@@ -76,28 +76,8 @@ Each transmitted segment follows this packet layout:
 
 ---
 
-## 📁 Repository Structure
 
-```text
-Bluetooth_messenger/
-├── src/                  # Application source files
-│   ├── app.py            # Main application loop
-│   └── protocol.py       # Custom byte-framing logic
-├── protocol.md           # Deep-dive protocol documentation
-└── README.md             # Project roadmap and run instructions
 
 ```
 
-```
 
----
-
-### How to upload this file to your GitHub right now:
-Run these commands one by one in your terminal:
-
-```bash
-git add README.md
-git commit -m "Added complete README documentation"
-git push
-
-```
