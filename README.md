@@ -1,6 +1,3 @@
-Here is the **exact, full text** you need to copy.
-
-Open your `README.md` file, delete everything inside it, paste the text below, and save the file:
 
 ```markdown
 # Bluetooth Messenger (P2P File & Text Transfer)
