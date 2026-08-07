@@ -1,5 +1,3 @@
-
-```
 # Bluetooth Messenger (P2P File & Text Transfer)
 
 A localized Peer-to-Peer (P2P) messaging application built to establish network connections between two physical devices. This app allows real-time text communication and lossless file streaming over a local network using a custom, byte-level application protocol.
